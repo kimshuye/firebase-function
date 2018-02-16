@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 
-app.get('/time',(request,response) => {
+app.get('/',(request,response) => {
     response.send(`${Date.now()}`);
 });
 
